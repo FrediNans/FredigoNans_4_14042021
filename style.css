@@ -844,6 +844,14 @@ h4 {
 .bg-presentation {
 	background-image: url("img/image-de-presentation.jpg");
 }
+.text-logo {
+	font-size: 32px;
+	margin-top: 25px;
+}
+.title-h2 {
+	font-size: 22px;
+	line-height: 34px;
+}
 
 @media (max-width: 1024px) {
 	.bloc {
