@@ -745,7 +745,20 @@ h4 {
 	color: #ffffff !important;
 	font-size: 14px;
 }
-
+.citation-box {
+	width: 50%;
+	margin: 20px auto auto auto;
+}
+.citation {
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+}
+.citation-author {
+	margin: 0 auto auto auto;
+	font-size: 12px;
+	text-align: center;
+}
 .portfolio-thumb {
 	margin-bottom: 24px;
 }
@@ -893,6 +906,9 @@ h4 {
 		padding: 0 20px;
 		padding-left: constant(safe-area-inset-left);
 		padding-right: constant(safe-area-inset-right);
+	}
+	.citation-box {
+		width: 85%;
 	}
 }
 
