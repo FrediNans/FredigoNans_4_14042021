@@ -706,6 +706,10 @@ p {
 	margin: auto auto auto auto;
 }
 
+.text-center {
+	font-size: 16px;
+}
+
 h2 {
 	font-size: 22px;
 	line-height: 1.4em;
@@ -739,6 +743,7 @@ h4 {
 
 .white {
 	color: #ffffff !important;
+	font-size: 14px;
 }
 
 .portfolio-thumb {
