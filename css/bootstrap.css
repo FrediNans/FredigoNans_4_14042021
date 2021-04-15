@@ -2075,11 +2075,18 @@ pre code {
 	padding-right: 15px;
 	padding-left: 15px;
 }
-.annuaires {
-	margin-top: 2rem;
-	font-size: 16px;
+@media screen and (max-width: 1024px) {
+	.annuaires {
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.annuaires ul {
+		margin-top: 16px;
+	}
+	.annuaires li {
+		height: 48px;
+	}
 }
-
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
